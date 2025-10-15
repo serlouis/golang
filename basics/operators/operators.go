@@ -24,4 +24,8 @@ func main() {
 
 	const p float64 = 22 / 7.0 // one of the operands is in float type so it returns a float type. Even if p is declared as a float but if you still use integers it returns integer
 	fmt.Println(p)
+
+	var x int = 1
+	x = x << 1
+	fmt.Println(x)
 }

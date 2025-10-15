@@ -21,4 +21,6 @@ func main() {
 	)
 
 	// gopher declaration doesn't work for const
+
+	
 }
