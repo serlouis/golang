@@ -46,6 +46,7 @@ func main(){
 		//fmt.Printf("Character at index %d is %c\n", i, char)
 		fmt.Printf("%x\n", char) // will print the hexidecimal value of each character
 		fmt.Printf("%v\n", char) // will give the ASCII value
+		fmt.Printf("%c\n", char) // will print the rune
 	}
 
 	// count the number of runes in the string
